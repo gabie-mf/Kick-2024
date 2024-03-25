@@ -9,13 +9,13 @@ programa
         leia(nome)
         faca {
             
-            escreva("\n Ol· ", nome, ", escolha uma opÁ„o do Menu, ou digite 5 para encerrar:\n1. Soma\n2. SubtraÁ„o\n3. MultiplicaÁ„o\n4. Divis„o\n5. Sair\nEscolha uma opÁ„o:  ")
+            escreva("\n Ol√° ", nome, ", escolha uma op√ß√£o do Menu, ou digite 5 para encerrar:\n1. Soma\n2. Subtra√ß√£o\n3. Multiplica√ß√£o\n4. Divis√£o\n5. Sair\nEscolha uma op√ß√£o:  ")
             leia(opcao)
 
             se (opcao != 5) {
-                escreva("Digite o primeiro n˙mero: ")
+                escreva("Digite o primeiro n√∫mero: ")
                 leia(numero1)
-                escreva("Digite o segundo n˙mero: ")
+                escreva("Digite o segundo n√∫mero: ")
                 leia(numero2)
 
                 se (opcao == 1) {
@@ -23,16 +23,16 @@ programa
                     escreva("Resultado da soma: " + resultado + "\n\n")
                 } senao se (opcao == 2) {
                     resultado = numero1 - numero2
-                    escreva("Resultado da subtraÁ„o: " + resultado + "\n\n")
+                    escreva("Resultado da subtra√ß√£o: " + resultado + "\n\n")
                 } senao se (opcao == 3) {
                     resultado = numero1 * numero2
-                    escreva("Resultado da multiplicaÁ„o: " + resultado + "\n\n")
+                    escreva("Resultado da multiplica√ß√£o: " + resultado + "\n\n")
                 } senao se (opcao == 4) {
                     se (numero2 != 0) {
                         resultado = numero1 / numero2
-                        escreva("Resultado da divis„o: " + resultado + "\n\n")
+                        escreva("Resultado da divis√£o: " + resultado + "\n\n")
                     } senao {
-                        escreva("Erro! Divis„o por zero n„o È permitida.\n\n")
+                        escreva("Erro! Divis√£o por zero n√£o √© permitida.\n\n")
                     }
                 }
 

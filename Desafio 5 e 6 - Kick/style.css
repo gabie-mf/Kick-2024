@@ -1,0 +1,43 @@
+body {
+   background-color: #202124; 
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.img {
+    width: 30%;
+    height: 30%;
+    margin-top: 50px;
+    align-self: center;
+}
+.buttons {
+    margin: 20px;
+}
+.button {
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    color: whitesmoke;
+    background-color: #3c4043;
+    border-radius: 10px;
+    
+}
+.caixa {
+    width: 40%;
+    height: 30px;
+    background-color: #202124;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-width: 0.5px;
+    color: whitesmoke;
+}
+.caixa:hover {
+    background-color: #3c4043;
+    transition: 2ms;
+    border: none;
+}
+.button:hover {
+    border-color: whitesmoke;
+    border-width: 0.5px;
+    cursor: pointer
+}

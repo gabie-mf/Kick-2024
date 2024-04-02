@@ -1,0 +1,53 @@
+body {
+margin: 0;
+padding: 0;
+justify-content: space-around;
+background: url("fundo\ site.png");
+}
+a {
+color: whitesmoke;
+text-decoration: none;
+}
+a:hover {
+opacity: 0.5;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(46, 45, 53);
+    list-style: none;
+    font-size: 20px;
+    height: 7vh;
+    align-items: center;
+    margin-top: 0;
+}
+.title {
+color: black;
+text-align: center;
+font-size: 30px;
+text-decoration:underline;
+text-transform: none;
+font-weight: 200;
+font-family: lucida handwriting;
+}
+
+.text {
+    margin: 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.texto {
+    margin: 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;   
+}
+
+.img {
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
